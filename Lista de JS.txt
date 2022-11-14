@@ -1,0 +1,40 @@
+﻿Lista de exercícios semana 8
+JavaScript
+
+
+Observação: algumas questões podem exigir pequenas pesquisas para a implementação, então é de extrema importância que vocês pesquisem antes de falar com os instrutores, pois assim vocês conseguirão maximizar o aprendizado.
+
+Questão 1
+1. Crie uma arrow function calculateIMC( ) (de uma linha)  que receba o peso(kg) e a altura(m) de uma pessoa e retorne o Índice de Massa Corporal (IMC) . ( https://www.tuasaude.com/calculadora/imc/ )
+
+
+   2. Crie uma função generateUser(), que recebe nome, idade, email  e retorna um objeto contendo essas informações
+
+
+   3. Dado o seguinte array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], crie uma função que retorna um array contendo apenas os números pares.
+
+
+Questão 2
+Dado um array de objetos, que representam uma turma, no qual cada objeto representa um aluno e é dado pelo seguinte formato. (Olhe o arquivo Q2JS.js):
+
+
+{
+        “nome”: “Aluno”,
+        “idade”: 18,
+        “mediaFinal”: 7, // (número de 0 a 10)
+}
+
+
+   1. Escreva uma função classStatistics(turma: Array<Object>), que  recebe um array de alunos e escreve no console as seguintes informações:
+   	1.  Média e desvio padrão de notas da turma
+   	2.  Relação de alunos reprovados (média < 5) e alunos aprovados
+
+
+   2. Escreva uma função addMencao(turma: Array<Object>), que recebe um array de alunos e retorna um novo array, que contém os mesmo dados para cada aluno, porém adiciona sua respectiva menção. As menções seguem a seguinte regra:
+
+
+	Nota (n)	  Menção
+	0 <= n < 5	  RR
+	5 <= n < 7	  MM
+	7 <= n < 9	  MS
+	9 <= n <= 10  SS
