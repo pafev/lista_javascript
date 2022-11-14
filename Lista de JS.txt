@@ -5,7 +5,7 @@ JavaScript
 Observação: algumas questões podem exigir pequenas pesquisas para a implementação, então é de extrema importância que vocês pesquisem antes de falar com os instrutores, pois assim vocês conseguirão maximizar o aprendizado.
 
 Questão 1
-1. Crie uma arrow function calculateIMC( ) (de uma linha)  que receba o peso(kg) e a altura(m) de uma pessoa e retorne o Índice de Massa Corporal (IMC) . ( https://www.tuasaude.com/calculadora/imc/ )
+   1. Crie uma arrow function calculateIMC( ) (de uma linha)  que receba o peso(kg) e a altura(m) de uma pessoa e retorne o Índice de Massa Corporal (IMC) . ( https://www.tuasaude.com/calculadora/imc/ )
 
 
    2. Crie uma função generateUser(), que recebe nome, idade, email  e retorna um objeto contendo essas informações
